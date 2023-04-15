@@ -1,0 +1,211 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #e5e5e5;
+  font-family: roboto;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.menu-color {
+  height: 50px;
+  background: #4e4e4e;
+  color: #f1f1f1;
+}
+.menu-link1,
+.menu-link2,
+.menu-link3,
+.menu-link4 {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 18px;
+}
+.menu-color .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-link1 {
+  font-weight: 700;
+}
+.menu-link3 {
+  margin: 0 46px;
+}
+.menu-link4 {
+  cursor: not-allowed;
+}
+.menu-ul {
+  display: flex;
+}
+header {
+  height: calc(100vh - 50px);
+  color: #ffffff;
+
+  background-image: url("media/header.png");
+}
+.shadow {
+  padding: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(100vh - 50px);
+  background: rgba(0, 0, 0, 0.15);
+}
+header .container {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+  width: 65%;
+}
+.header-title2 {
+  margin: 62px 0 43px 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+.header-btn {
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 56px 14px;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  transition-duration: 1s;
+}
+.header-btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.specialists-section {
+  padding: 50px;
+  background: #f1f1f1;
+}
+.specialists-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 78px;
+}
+.specalist1-photo,
+.specalist2-photo {
+  border-radius: 50%;
+  height: 200px;
+  aspect-ratio: 1;
+  background-color: #907d7d;
+  background-size: contain;
+}
+.specalist1-photo {
+  background-image: url("media/specialist1.png");
+  margin-right: 60px;
+}
+.specalist2-photo {
+  background-image: url("media/specialist2.png");
+  background-size: contain;
+  margin-left: 60px;
+}
+.specialist-section {
+  display: flex;
+  margin-top: 40px;
+}
+
+.specialist-section:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.specalist-name {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+.specalist-description {
+  font-size: 18px;
+  font-weight: 400;
+}
+.offers-section {
+  padding: 50px 0 63px 0;
+
+  background: #405d78;
+}
+.specialist-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.offers-title {
+  margin: 0 0 83px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+}
+.offers-section .container {
+  align-items: center;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 64px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.grid-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  height: 200px;
+  aspect-ratio: 1;
+  background-color: #f1f1f1;
+  font-size: 24px;
+  transition-duration: 0.5s;
+}
+.grid-box p:nth-of-type(2) {
+  font-size: 18px;
+}
+.grid-box:hover {
+  transform: scale(1.05);
+}
+.grid-box:hover {
+  transform: scale(1.05);
+}
+.grid-dott {
+  height: 22px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #e07a64;
+  position: absolute;
+  left: -11px;
+  top: -11px;
+}
+footer {
+  height: 71px;
+  background: #4e4e4e;
+}
+footer .container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.footer-ICN {
+  font-size: 28px;
+}
+i {
+  color: #ffffff;
+}
+.fa-brands.fa-square-facebook {
+  margin-left: 18px;
+}
