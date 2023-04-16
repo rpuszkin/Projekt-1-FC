@@ -130,7 +130,7 @@ header .container {
   font-weight: 400;
 }
 .offers-section {
-  padding: 50px 50px 64px 50px;
+  padding: 50px 50px 50px 64px;
 
   background: #405d78;
 }
@@ -150,7 +150,7 @@ header .container {
 }
 .grid-container {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 63px;
   grid-template-columns: auto auto auto;
   justify-content: center;
 }
