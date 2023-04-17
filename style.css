@@ -9,16 +9,16 @@ body {
   margin: 0 auto;
   width: 960px;
 }
+.font-bold {
+  font-weight: 700;
+}
 
 .menu-color {
   height: 50px;
   background: #4e4e4e;
   color: #f1f1f1;
 }
-.menu-link1,
-.menu-link2,
-.menu-link3,
-.menu-link4 {
+.menu-link {
   text-decoration: none;
   color: #f1f1f1;
   font-size: 18px;
@@ -29,17 +29,13 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.menu-link1 {
-  font-weight: 700;
-}
-.menu-link3 {
-  margin: 0 46px;
-}
-.menu-link4 {
+
+.menu-link-contact {
   cursor: not-allowed;
 }
 .menu-ul {
   display: flex;
+  gap: 47px;
 }
 header {
   height: calc(100vh - 50px);
@@ -178,7 +174,7 @@ header .container {
 .grid-box:hover {
   transform: scale(1.05);
 }
-.grid-dott {
+.grid-dot {
   height: 22px;
   aspect-ratio: 1;
   border-radius: 50%;
