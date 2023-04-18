@@ -47,9 +47,7 @@ header {
 }
 .shadow {
   padding: 50px;
-  box-sizing: border-box;
-  width: 100%;
-  height: calc(100vh - 50px);
+  height: 100%;
   background: rgba(0, 0, 0, 0.15);
 }
 header .container {
@@ -91,19 +89,18 @@ header .container {
   font-weight: 700;
   margin-bottom: 78px;
 }
-.specialist1-photo,
-.specialist2-photo {
+.specialist-photo {
   border-radius: 50%;
   height: 200px;
   aspect-ratio: 1;
   background-color: #907d7d;
   background-size: contain;
 }
-.specialist1-photo {
+.specialist1-face {
   background-image: url("media/specialist1.png");
   margin-right: 60px;
 }
-.specialist2-photo {
+.specialist2-face {
   background-image: url("media/specialist2.png");
   background-size: contain;
   margin-left: 60px;
