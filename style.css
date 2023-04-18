@@ -68,7 +68,6 @@ header .container {
   font-size: 18px;
 }
 .header-btn {
-  font-weight: 700;
   text-decoration: none;
   padding: 14px 56px 14px;
   color: #ffffff;
@@ -85,7 +84,6 @@ header .container {
 }
 .specialists-title {
   font-size: 36px;
-  font-weight: 700;
   margin-bottom: 78px;
 }
 .specialist-photo {
@@ -116,7 +114,6 @@ header .container {
 .specialist-name {
   margin-bottom: 12px;
   font-size: 18px;
-  font-weight: 700;
   color: #000000;
 }
 .specialist-description {
@@ -134,7 +131,6 @@ header .container {
 }
 .offers-title {
   margin: 0 0 83px;
-  font-weight: 700;
   font-size: 36px;
   color: #ffffff;
 }
@@ -191,7 +187,6 @@ footer .container {
 .footer-text {
   font-size: 18px;
   color: #ffffff;
-  font-weight: 700;
 }
 .footer-icn {
   font-size: 28px;
