@@ -16,7 +16,12 @@ body {
 .font-white {
   color: #ffffff;
 }
-
+.font-big {
+  font-size: 36px;
+}
+.font-small {
+  font-size: 18px;
+}
 .menu-color {
   height: 50px;
   background: #4e4e4e;
@@ -25,7 +30,6 @@ body {
 .menu-link {
   text-decoration: none;
   color: #f1f1f1;
-  font-size: 18px;
 }
 .menu-color .container {
   height: 100%;
@@ -62,12 +66,10 @@ header .container {
   justify-content: center;
 }
 .header-title {
-  font-size: 36px;
   width: 65%;
 }
 .header-subtitle {
   margin: 62px 0 43px 0;
-  font-size: 18px;
 }
 .header-btn {
   text-decoration: none;
@@ -84,7 +86,6 @@ header .container {
   background: #f1f1f1;
 }
 .specialists-title {
-  font-size: 36px;
   margin-bottom: 78px;
 }
 .specialist-photo {
@@ -114,11 +115,9 @@ header .container {
 }
 .specialist-name {
   margin-bottom: 12px;
-  font-size: 18px;
   color: #000000;
 }
 .specialist-description {
-  font-size: 18px;
 }
 .offers-section {
   padding: 50px 50px 64px 50px;
@@ -184,9 +183,7 @@ footer .container {
   align-items: center;
   justify-content: space-between;
 }
-.footer-text {
-  font-size: 18px;
-}
+
 .footer-icn {
   font-size: 28px;
 }
