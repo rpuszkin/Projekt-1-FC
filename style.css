@@ -59,14 +59,12 @@ header .container {
   justify-content: center;
 }
 .header-title {
-  font-weight: 700;
   font-size: 36px;
   color: #ffffff;
   width: 65%;
 }
 .header-subtitle {
   margin: 62px 0 43px 0;
-  font-weight: 700;
   font-size: 18px;
 }
 .header-btn {
