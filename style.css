@@ -13,6 +13,9 @@ body {
 .font-bold {
   font-weight: 700;
 }
+.font-white {
+  color: #ffffff;
+}
 
 .menu-color {
   height: 50px;
@@ -40,12 +43,12 @@ body {
 }
 header {
   height: calc(100vh - 50px);
-  color: #ffffff;
 
   background-image: url("media/header.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .shadow {
   padding: 50px;
   height: 100%;
@@ -60,7 +63,6 @@ header .container {
 }
 .header-title {
   font-size: 36px;
-  color: #ffffff;
   width: 65%;
 }
 .header-subtitle {
@@ -70,7 +72,6 @@ header .container {
 .header-btn {
   text-decoration: none;
   padding: 14px 56px 14px;
-  color: #ffffff;
   border: 3px solid #ffffff;
   transition-duration: 1s;
 }
@@ -132,7 +133,6 @@ header .container {
 .offers-title {
   margin: 0 0 83px;
   font-size: 36px;
-  color: #ffffff;
 }
 .offers-section .container {
   align-items: center;
@@ -186,13 +186,11 @@ footer .container {
 }
 .footer-text {
   font-size: 18px;
-  color: #ffffff;
 }
 .footer-icn {
   font-size: 28px;
 }
 i {
-  color: #ffffff;
 }
 .fa-brands.fa-square-facebook {
   margin-left: 18px;
