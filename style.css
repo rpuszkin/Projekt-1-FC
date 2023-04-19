@@ -6,6 +6,7 @@ body {
   font-family: roboto;
   font-weight: 400;
   font-size: 18px;
+  color: #000000;
 }
 .container {
   margin: 0 auto;
@@ -16,9 +17,6 @@ body {
 }
 .font-white {
   color: #ffffff;
-}
-.font-black {
-  color: #000000;
 }
 .font-big {
   font-size: 36px;
