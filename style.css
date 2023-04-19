@@ -5,6 +5,7 @@ body {
   background: #e5e5e5;
   font-family: roboto;
   font-weight: 400;
+  font-size: 18px;
 }
 .container {
   margin: 0 auto;
@@ -21,9 +22,6 @@ body {
 }
 .font-big {
   font-size: 36px;
-}
-.font-small {
-  font-size: 18px;
 }
 .menu-color {
   height: 50px;
