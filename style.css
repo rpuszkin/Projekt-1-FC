@@ -10,7 +10,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 960px;
+  width: 85%;
 }
 .font-bold {
   font-weight: 700;
@@ -37,55 +37,47 @@ body {
   align-items: center;
 }
 
-.menu-link-contact {
-  cursor: not-allowed;
-}
-.menu-ul {
-  display: flex;
-  gap: 47px;
-}
-header {
-  height: calc(100vh - 50px);
 
-  background-image: url("media/header.png");
-  background-repeat: no-repeat;
+header {
+  background-image: url("media/header-mobile.png");
+  height: calc(100vh - 50px);
   background-size: cover;
 }
-
 .shadow {
+  box-sizing: border-box;
   padding: 50px;
+  width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.15);
 }
 header .container {
   display: flex;
-  align-items: flex-start;
   height: 100%;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 }
 .header-title {
-  width: 65%;
+  width: 90%;
+  margin: 142px 63px 0;
 }
 .header-subtitle {
   margin: 62px 0 43px 0;
 }
 .header-btn {
   text-decoration: none;
-  padding: 14px 56px 14px;
+
+  padding: 14px 58px 14px 57px;
   border: 3px solid #ffffff;
-  transition-duration: 1s;
+  box-sizing: border-box;
 }
-.header-btn:hover {
-  background: #ffffff;
-  color: #000000;
-}
+
 .specialists-section {
   padding: 50px;
   background: #f1f1f1;
 }
 .specialists-title {
-  margin-bottom: 78px;
+  margin: 60px auto 60px;
 }
 .specialist-photo {
   border-radius: 50%;
@@ -96,22 +88,19 @@ header .container {
 }
 .specialist-one-face {
   background-image: url("media/specialist1.png");
-  margin-right: 60px;
 }
 .specialist-two-face {
   background-image: url("media/specialist2.png");
   background-size: contain;
-  margin-left: 60px;
 }
 .specialist-section {
+  gap: 60px;
+  align-items: center;
   display: flex;
-  margin-top: 40px;
+  margin-top: 60px;
+  flex-direction: column;
 }
 
-.specialist-section:nth-of-type(even) {
-  flex-direction: row-reverse;
-  text-align: right;
-}
 .specialist-name {
   margin-bottom: 12px;
 }
@@ -129,16 +118,20 @@ header .container {
 }
 .offers-title {
   margin: 0 0 83px;
-  font-size: 36px;
+  font-size: 26px;
 }
 .offers-section .container {
   align-items: center;
 }
+
 .grid-container {
   display: grid;
-  grid-gap: 63px;
-  grid-template-columns: auto auto auto;
+  grid-gap: 36px;
+  grid-template-columns: auto;
   justify-content: center;
+}
+.menu-ul {
+  display: none;
 }
 .grid-box {
   display: flex;
@@ -147,29 +140,23 @@ header .container {
   justify-content: center;
   position: relative;
 
-  height: 200px;
+  height: 340px;
   aspect-ratio: 1;
   background-color: #f1f1f1;
   font-size: 24px;
-  transition-duration: 0.5s;
 }
 .grid-box p:nth-of-type(2) {
   font-size: 18px;
 }
-.grid-box:hover {
-  transform: scale(1.05);
-}
-.grid-box:hover {
-  transform: scale(1.05);
-}
+
 .grid-dot {
-  height: 22px;
+  height: 38px;
   aspect-ratio: 1;
   border-radius: 50%;
   background: #e07a64;
   position: absolute;
-  left: -11px;
-  top: -11px;
+  left: -19px;
+  top: -19px;
 }
 footer {
   height: 71px;
@@ -177,6 +164,7 @@ footer {
 }
 footer .container {
   display: flex;
+  flex-wrap: wrap;
   height: 100%;
   align-items: center;
   justify-content: space-between;
@@ -185,8 +173,100 @@ footer .container {
 .footer-icn {
   font-size: 28px;
 }
-i {
-}
 .fa-brands.fa-square-facebook {
   margin-left: 18px;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+  .menu-ul {
+    display: flex;
+    gap: 47px;
+  }
+  .menu-link-contact {
+    cursor: not-allowed;
+  }
+  header {
+    background-image: url("media/header-pc.png");
+    h
+    background-size: cover;
+  }
+  .shadow {
+    box-sizing: border-box;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+  }
+  .header-title {
+    width: 65%;
+  }
+  .header-subtitle {
+    margin: 62px 0 43px 0;
+  }
+  .header-btn {
+    text-decoration: none;
+    padding: 14px 56px 14px;
+    border: 3px solid #ffffff;
+    transition-duration: 1s;
+  }
+  .header-btn:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+  .specialists-section {
+    padding: 50px;
+    background: #f1f1f1;
+  }
+
+  .specialists-title {
+    margin: 0 0 78px;
+  }
+  .header-btn:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+  .specialist-section {
+    flex-direction: row;
+  }
+  .offers-title {
+    margin: 0 0 83px;
+    font-size: 36px;
+  }
+  .specialist-section:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .grid-container {
+    display: grid;
+    grid-gap: 63px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+  .grid-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    height: 200px;
+    aspect-ratio: 1;
+    background-color: #f1f1f1;
+    font-size: 24px;
+    transition-duration: 0.5s;
+  }
+  .grid-box:hover {
+    transform: scale(1.05);
+  }
+  .grid-dot {
+    height: 22px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #e07a64;
+    position: absolute;
+    left: -11px;
+    top: -11px;
+  }
 }
