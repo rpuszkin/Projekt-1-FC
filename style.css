@@ -10,7 +10,10 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 85%;
+  width: 92%;
+}
+.menu-ul {
+  display: none;
 }
 .font-bold {
   font-weight: 700;
@@ -37,7 +40,9 @@ body {
   align-items: center;
 }
 
-
+.menu-link-contact {
+  cursor: not-allowed;
+}
 header {
   background-image: url("media/header-mobile.png");
   height: calc(100vh - 50px);
@@ -45,7 +50,6 @@ header {
 }
 .shadow {
   box-sizing: border-box;
-  padding: 50px;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.15);
@@ -59,7 +63,6 @@ header .container {
 }
 .header-title {
   width: 90%;
-  margin: 142px 63px 0;
 }
 .header-subtitle {
   margin: 62px 0 43px 0;
@@ -73,11 +76,14 @@ header .container {
 }
 
 .specialists-section {
-  padding: 50px;
   background: #f1f1f1;
+  justify-content: center;
+  padding: 50px;
 }
 .specialists-title {
-  margin: 60px auto 60px;
+  margin: 0 0 78px;
+  display: flex;
+  justify-content: center;
 }
 .specialist-photo {
   border-radius: 50%;
@@ -85,6 +91,7 @@ header .container {
   aspect-ratio: 1;
   background-color: #907d7d;
   background-size: contain;
+  margin: 0 auto;
 }
 .specialist-one-face {
   background-image: url("media/specialist1.png");
@@ -94,17 +101,15 @@ header .container {
   background-size: contain;
 }
 .specialist-section {
+  display: flex;
   gap: 60px;
   align-items: center;
-  display: flex;
   margin-top: 60px;
   flex-direction: column;
 }
 
 .specialist-name {
   margin-bottom: 12px;
-}
-.specialist-description {
 }
 .offers-section {
   padding: 50px 50px 64px 50px;
@@ -119,6 +124,8 @@ header .container {
 .offers-title {
   margin: 0 0 83px;
   font-size: 26px;
+  display: flex;
+  justify-content: center;
 }
 .offers-section .container {
   align-items: center;
@@ -130,9 +137,7 @@ header .container {
   grid-template-columns: auto;
   justify-content: center;
 }
-.menu-ul {
-  display: none;
-}
+
 .grid-box {
   display: flex;
   flex-direction: column;
@@ -159,37 +164,34 @@ header .container {
   top: -19px;
 }
 footer {
-  height: 71px;
+  height: 141px;
   background: #4e4e4e;
 }
 footer .container {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   height: 100%;
   align-items: center;
-  justify-content: space-between;
 }
-
 .footer-icn {
   font-size: 28px;
+  display: flex;
+  gap: 18px;
 }
-.fa-brands.fa-square-facebook {
-  margin-left: 18px;
-}
+
 @media screen and (min-width: 1024px) {
   .container {
     width: 960px;
   }
+
   .menu-ul {
     display: flex;
     gap: 47px;
   }
-  .menu-link-contact {
-    cursor: not-allowed;
-  }
   header {
     background-image: url("media/header-pc.png");
-    h
     background-size: cover;
   }
   .shadow {
@@ -215,13 +217,9 @@ footer .container {
     background: #ffffff;
     color: #000000;
   }
-  .specialists-section {
-    padding: 50px;
-    background: #f1f1f1;
-  }
 
   .specialists-title {
-    margin: 0 0 78px;
+    justify-content: left;
   }
   .header-btn:hover {
     background: #ffffff;
@@ -231,8 +229,9 @@ footer .container {
     flex-direction: row;
   }
   .offers-title {
-    margin: 0 0 83px;
+    margin: 0 auto 83px;
     font-size: 36px;
+    justify-content: left;
   }
   .specialist-section:nth-of-type(even) {
     flex-direction: row-reverse;
@@ -268,5 +267,23 @@ footer .container {
     position: absolute;
     left: -11px;
     top: -11px;
+  }
+  footer {
+    height: 71px;
+    padding: 0 82px 0 94px;
+    height: 74px;
+    background: #4e4e4e;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+@media (max-width: 520px) {
+  .grid-box {
+    height: 265px;
   }
 }
