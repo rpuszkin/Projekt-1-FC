@@ -113,7 +113,7 @@ header .container {
   margin-bottom: 12px;
 }
 .offers-section {
-  padding: 50px 50px 64px 50px;
+  padding: 76px 14px 45px 50px;
 
   background: #405d78;
 }
@@ -126,6 +126,7 @@ header .container {
   margin: 0 auto 83px;
   font-size: 26px;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
 }
 .offers-section .container {
@@ -238,6 +239,9 @@ footer .container {
     flex-direction: row-reverse;
     text-align: right;
   }
+  .offers-section {
+    padding: 50px 50px 64px 50px;
+  }
   .grid-container {
     display: grid;
     grid-gap: 63px;
@@ -275,6 +279,7 @@ footer .container {
     height: 74px;
     background: #4e4e4e;
   }
+
   footer .container {
     display: flex;
     flex-direction: row;
