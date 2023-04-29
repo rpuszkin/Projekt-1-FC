@@ -109,7 +109,6 @@ header .container {
   margin-top: 60px;
   flex-direction: column;
 }
-
 .specialist-name {
   margin-bottom: 12px;
 }
@@ -132,14 +131,12 @@ header .container {
 .offers-section .container {
   align-items: center;
 }
-
 .grid-container {
   display: grid;
   grid-gap: 36px;
   grid-template-columns: auto;
   justify-content: center;
 }
-
 .grid-box {
   display: flex;
   flex-direction: column;
@@ -155,7 +152,6 @@ header .container {
 .grid-box p:nth-of-type(2) {
   font-size: 18px;
 }
-
 .grid-dot {
   height: 38px;
   aspect-ratio: 1;
@@ -184,12 +180,10 @@ footer .container {
   display: flex;
   gap: 18px;
 }
-
 @media screen and (min-width: 1024px) {
   .container {
     width: 960px;
   }
-
   .menu-ul {
     display: flex;
     gap: 47px;
@@ -289,7 +283,7 @@ footer .container {
     width: 100%;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 576px) {
   .grid-box {
     height: 265px;
   }
