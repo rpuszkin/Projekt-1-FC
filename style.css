@@ -110,7 +110,7 @@ header .container {
   margin-bottom: 12px;
 }
 .offers-section {
-  padding: 76px 14px 45px 14px;
+  padding: 76px 0 45px 0;
 
   background: #405d78;
 }
