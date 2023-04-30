@@ -175,6 +175,7 @@ footer .container {
   align-items: center;
 }
 .footer-icn {
+  margin-top: 18px;
   font-size: 28px;
   display: flex;
   gap: 18px;
