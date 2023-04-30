@@ -40,9 +40,6 @@ body {
   align-items: center;
 }
 
-.menu-link-contact {
-  cursor: not-allowed;
-}
 header {
   background-image: url("media/header-mobile.png");
   height: calc(100vh - 50px);
@@ -189,6 +186,9 @@ footer .container {
   .menu-ul {
     display: flex;
     gap: 47px;
+  }
+  .menu-link-contact {
+    cursor: not-allowed;
   }
   header {
     background-image: url("media/header-pc.png");
