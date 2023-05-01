@@ -10,7 +10,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 97%;
+  width: 100%;
 }
 .menu-ul {
   display: none;
