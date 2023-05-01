@@ -75,8 +75,7 @@ header .container {
   padding: 14px 14px 100px;
 }
 .specialists-title {
-  padding-top: 20px;
-  margin: 0 0 78px;
+  margin: 20px 0 78px;
   display: flex;
   justify-content: center;
 }
@@ -216,7 +215,7 @@ footer .container {
     padding: 50px 0 50px 0;
   }
   .specialists-title {
-    padding: 0;
+    margin: 0;
     justify-content: left;
   }
   .header-btn:hover {
