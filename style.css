@@ -66,12 +66,10 @@ header .container {
 }
 .header-btn {
   text-decoration: none;
-
   padding: 14px 58px 14px 57px;
   border: 3px solid #ffffff;
   box-sizing: border-box;
 }
-
 .specialists-section {
   background: #f1f1f1;
   justify-content: center;
