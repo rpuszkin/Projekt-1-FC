@@ -39,7 +39,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
 header {
   background-image: url("media/header-mobile.png");
   height: calc(100vh - 50px);
@@ -108,7 +107,6 @@ header .container {
 }
 .offers-section {
   padding: 76px 0 45px 0;
-
   background: #405d78;
 }
 .specialist-info {
