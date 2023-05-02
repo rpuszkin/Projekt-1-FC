@@ -73,7 +73,7 @@ header .container {
   background: #f1f1f1;
   justify-content: center;
 }
-.specialist-section .container {
+.specialists-section .container {
   padding: 14px 14px 100px;
 }
 .specialists-title {
@@ -192,9 +192,6 @@ footer .container {
     background-size: cover;
   }
   .shadow {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
     background: rgba(0, 0, 0, 0.15);
   }
   .header-title {
@@ -212,8 +209,6 @@ footer .container {
   .header-btn:hover {
     background: #ffffff;
     color: #000000;
-  }
-  .specialists-section {
   }
   .specialists-section .container {
     padding: 50px 0 50px 0;
