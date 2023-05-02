@@ -158,11 +158,11 @@ header .container {
 }
 footer {
   height: 141px;
-  padding: 14px;
   box-sizing: border-box;
   background: #4e4e4e;
 }
 footer .container {
+  padding: 14px;
   justify-content: center;
   align-items: center;
   display: flex;
