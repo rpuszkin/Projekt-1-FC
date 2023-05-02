@@ -74,7 +74,7 @@ header .container {
   justify-content: center;
 }
 .specialists-section .container {
-  padding: 14px 14px 100px;
+  padding: 14px 14px 100px 14px;
 }
 .specialists-title {
   margin: 20px 0 78px;
