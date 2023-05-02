@@ -59,7 +59,7 @@ header .container {
   justify-content: center;
 }
 .header-title {
-  width: 90%;
+  width: 70%;
 }
 .header-subtitle {
   margin: 62px 0 43px 0;
@@ -158,18 +158,19 @@ header .container {
   top: -19px;
 }
 footer {
+  justify-content: center;
+  align-items: center;
   height: 141px;
   box-sizing: border-box;
   background: #4e4e4e;
 }
 footer .container {
-  padding: 14px;
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .footer-icn {
   margin: 18px 0 28px;
@@ -276,7 +277,6 @@ footer .container {
   footer .container {
     display: flex;
     flex-direction: row;
-    height: 100%;
     justify-content: space-between;
   }
 }
