@@ -173,7 +173,7 @@ footer .container {
   height: 100%;
 }
 .footer-icn {
-  margin: 18px 0 28px;
+  margin-top: 18px;
   font-size: 28px;
   display: flex;
   gap: 18px;
