@@ -34,6 +34,7 @@ body {
   color: #f1f1f1;
 }
 .menu-color .container {
+  padding-left: 14px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -56,8 +57,7 @@ header .container {
   height: 100%;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
 }
 .header-title {
   width: 70%;
@@ -72,6 +72,7 @@ header .container {
   box-sizing: border-box;
 }
 .specialists-section {
+  padding: 0 14px;
   background: #f1f1f1;
   justify-content: center;
 }
@@ -79,7 +80,6 @@ header .container {
   padding-top: 34px;
 }
 .specialists-title {
-  margin: 0 78px;
   display: flex;
   justify-content: center;
 }
@@ -102,7 +102,7 @@ header .container {
   display: flex;
   gap: 60px;
   align-items: center;
-  margin-top: 46px;
+  margin-top: 60px;
   flex-direction: column;
 }
 .specialist-name {
@@ -113,7 +113,6 @@ header .container {
   background: #405d78;
 }
 .specialist-info {
-  margin: 14px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -131,7 +130,7 @@ header .container {
 .grid-container {
   margin: 0 auto;
   display: grid;
-  grid-gap: 42px;
+  grid-gap: 45px;
   grid-template-columns: auto;
   justify-content: center;
 }
@@ -142,7 +141,7 @@ header .container {
   justify-content: center;
   position: relative;
 
-  height: 340px;
+  height: 256px;
   aspect-ratio: 1;
   background-color: #f1f1f1;
   font-size: 24px;
@@ -179,6 +178,11 @@ footer .container {
   font-size: 28px;
   display: flex;
   gap: 18px;
+}
+@media (min-width: 576px) {
+  .grid-box {
+    height: 340px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .container {
@@ -280,10 +284,5 @@ footer .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-}
-@media (max-width: 576px) {
-  .grid-box {
-    height: 265px;
   }
 }
