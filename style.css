@@ -43,6 +43,7 @@ header {
   background-image: url("media/header-mobile.png");
   height: calc(100vh - 50px);
   background-size: cover;
+  box-sizing: border-box;
 }
 .shadow {
   width: 100%;
@@ -75,10 +76,10 @@ header .container {
   justify-content: center;
 }
 .specialists-section .container {
-  padding: 14px 14px 100px 14px;
+  padding-top: 34px;
 }
 .specialists-title {
-  margin: 20px 0 78px;
+  margin: 0 78px;
   display: flex;
   justify-content: center;
 }
@@ -101,7 +102,7 @@ header .container {
   display: flex;
   gap: 60px;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 46px;
   flex-direction: column;
 }
 .specialist-name {
@@ -112,6 +113,7 @@ header .container {
   background: #405d78;
 }
 .specialist-info {
+  margin: 14px;
   display: flex;
   justify-content: center;
   flex-direction: column;
