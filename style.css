@@ -40,6 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 header {
   background-image: url("media/header-mobile.png");
@@ -54,6 +55,7 @@ header {
 }
 header .container {
   padding: 14px;
+  box-sizing: border-box;
   display: flex;
   height: 100%;
   justify-content: center;
@@ -77,7 +79,7 @@ header .container {
   justify-content: center;
 }
 .specialists-section .container {
-  padding: 34px 14px 100px 14px;
+  padding: 34px 0 100px 0;
 }
 .specialists-title {
   display: flex;
@@ -113,13 +115,13 @@ header .container {
   background: #405d78;
 }
 .specialist-info {
-  width: 75%;
+  margin: 0 14px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .offers-title {
-  margin: 0 auto 60px;
+  margin: 0 auto 60px auto;
   font-size: 26px;
   display: flex;
   flex-wrap: nowrap;
@@ -167,6 +169,8 @@ footer {
   background: #4e4e4e;
 }
 footer .container {
+  padding: 14px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -282,6 +286,7 @@ footer .container {
     background: #4e4e4e;
   }
   footer .container {
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
