@@ -281,12 +281,11 @@ footer .container {
   }
   footer {
     height: 71px;
-    padding: 0 82px 0 94px;
-    height: 74px;
     background: #4e4e4e;
   }
   footer .container {
-    padding: 0;
+    width: 100%;
+    padding: 0 82px 0 94px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
