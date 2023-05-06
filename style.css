@@ -168,7 +168,6 @@ footer {
   background: #4e4e4e;
 }
 footer .container {
-  box-sizing: border-box;
   padding: 14px;
   box-sizing: border-box;
   display: flex;
@@ -182,10 +181,9 @@ footer .container {
   font-size: 28px;
   display: flex;
   gap: 18px;
+  margin-top: 18px;
 }
-footer p {
-  margin-bottom: 18px;
-}
+
 @media (min-width: 576px) {
   .grid-box {
     height: 340px;
@@ -286,10 +284,11 @@ footer p {
     background: #4e4e4e;
   }
   footer .container {
-    width: 100%;
-    padding: 0 82px 0 94px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .footer-icn {
+    margin: 0;
   }
 }
