@@ -190,9 +190,7 @@ footer .container {
   }
 }
 /*warunki dla PC*/
-@media (min-width: 1023px) and (max-width: 1179px),
-  (min-width: 1181) and (max-width: 1367px),
-  (min-width: 1369px) {
+@media (min-width: 1023px) and (max-width: 1179px), (min-width: 1181px) {
   .container {
     width: 960px;
   }
