@@ -190,9 +190,9 @@ footer .container {
   }
 }
 /*warunki dla PC*/
-@media (min-width: 1023px) and (max-width: 1179px) and (-webkit-max-device-pixel-ratio: 1),
-  (min-width: 1181px) and (max-width: 1367px) and (-webkit-max-device-pixel-ratio: 1),
-  (min-width: 1369px) and (-webkit-max-device-pixel-ratio: 1) {
+/*szerokość 1024px iPad Mini, 1180px iPad Air*/
+@media (min-width: 1023px) and (min-width: 1179px) and (-webkit-max-device-pixel-ratio: 1),
+  (min-width: 1181px) and (-webkit-min-device-pixel-ratio: 1) {
   .container {
     width: 960px;
   }
