@@ -190,9 +190,11 @@ footer .container {
   }
 }
 /*warunki dla PC*/
-/*szerokość 1024px iPad Mini, 1180px iPad Air*/
+/*Rozdzielczość  iPad Mini [1024 768],  iPad Air [820×1180] Nest Hub Max [1280×800] Surface Pro 7 [1368×912]*/
 @media (min-width: 1023px) and (min-width: 1179px) and (-webkit-max-device-pixel-ratio: 1),
-  (min-width: 1181px) and (-webkit-min-device-pixel-ratio: 1) {
+  (min-width: 1179px) and (max-width: 1279px) and (-webkit-max-device-pixel-ratio: 1),
+  (width: 1280px) and (min-height: 801px),
+  (min-width: 1281px) and (min-width: 1367px) {
   .container {
     width: 960px;
   }
