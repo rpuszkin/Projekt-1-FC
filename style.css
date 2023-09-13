@@ -194,7 +194,7 @@ footer .container {
 @media (min-width: 1023px) and (min-width: 1179px) and (-webkit-max-device-pixel-ratio: 1),
   (min-width: 1179px) and (max-width: 1279px) and (-webkit-max-device-pixel-ratio: 1),
   (width: 1280px) and (min-height: 801px),
-  (min-width: 1281px) and (min-width: 1367px) {
+  (min-width: 1281px) and (min-width: 1369px) {
   .container {
     width: 960px;
   }
